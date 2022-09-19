@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel1" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="tela" alignment="0" min="-2" pref="258" max="-2" attributes="0"/>
+                      <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="bot_sete" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bot_oito" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bot_nove" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bot_mult" min="-2" pref="60" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="bot_zero" min="-2" pref="60" max="-2" attributes="0"/>
+                                  <Component id="bot_quatro" alignment="1" min="-2" pref="60" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="bot_cinco" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="bot_seis" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="bot_menos" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <Component id="bot_igual" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="bot_ce" min="-2" pref="60" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="bot_div" min="-2" pref="60" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="bot_um" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bot_dois" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bot_tres" min="-2" pref="60" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="bot_mais" min="-2" pref="60" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace pref="28" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="tela" pref="71" max="32767" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bot_mult" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_nove" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_oito" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_sete" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bot_menos" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_seis" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_cinco" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_quatro" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bot_mais" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_tres" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_dois" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_um" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="bot_igual" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_zero" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_ce" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                      <Component id="bot_div" alignment="3" min="-2" pref="60" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JButton" name="bot_igual">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="="/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_igualActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_zero">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="0"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_zeroActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_ce">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="CE"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_ceActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_div">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="/"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_divActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_mais">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="+"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_maisActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_menos">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="-"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_menosActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_mult">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="x"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_multActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_nove">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="9"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_noveActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_seis">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="6"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_seisActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_tres">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="3"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_tresActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_dois">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="2"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_doisActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_cinco">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="5"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_cincoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_oito">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="8"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_oitoActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_sete">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="7"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_seteActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_quatro">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="4"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_quatroActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="bot_um">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="1"/>
+            <Property name="alignmentX" type="float" value="0.5"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="bot_umActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JTextField" name="tela">
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
